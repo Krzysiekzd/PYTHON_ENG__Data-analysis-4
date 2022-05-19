@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            width: 800px;
+            color: magenta;
+        }
+        iframe
+        {
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>PLOTLY</h1>
+    <iframe src="separate_plots/plotly_1.html" title="plotly_1"></iframe>
+    <iframe src="separate_plots/plotly_2.html" title="plotly_2"></iframe>
+    <h3>Additional plot</h3>
+    <iframe src="separate_plots/plotly_3.html" title="plotly_3"></iframe>
+    <h1>MPLD3</h1>
+    <h3>Unfortunately this library does not support x-ticks option, so I was unable to set
+        them as country names. Instead I added text with country name on each bar.
+    </h3>
+    <iframe src="separate_plots/mpld3_1.html" title="mpld3_1"></iframe>
+    <iframe src="separate_plots/mpld3_2.html" title="mpld3_2"></iframe>
+    <h1>BOKEH</h1>
+    <iframe src="separate_plots/bokeh_1.html" title="bokeh_1"></iframe>
+    <iframe src="separate_plots/bokeh_2.html" title="bokeh_2"></iframe>
+</body>
+</html>
